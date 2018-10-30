@@ -38,7 +38,7 @@ function play() {
 	var start_time = Date.now();
 	var correct_answers = 0;
 
-	for(var i = 0; i < 10; i++) {
+	for(var i = 0; i < GAMES_TO_PLAY; i++) {
 		var operator = randomNumber(0, 3);
 		var operator_char_value = '';
 		var x = 0;
